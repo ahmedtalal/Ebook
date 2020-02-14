@@ -3,4 +3,8 @@
     <color name="colorPrimary">#FF757C</color>
     <color name="colorPrimaryDark">#B66569</color>
     <color name="colorAccent">#BB285E</color>
+    <color name="tridic1">#ef0078</color>
+    <color name="tridic2">#ee0290</color>
+    <color name="tridic3">#ef4fa6</color>
+    <color name="tridic4">#f186c0</color>
 </resources>

@@ -1,5 +1,7 @@
 package ahmed.javcoder.ebook;
 
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -35,5 +37,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
+    @Override
+    public void onBackPressed() {
+        finish();
     }
 }

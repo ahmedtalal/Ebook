@@ -44,6 +44,12 @@ public class Main2Activity extends AppCompatActivity {
         }else if(x == 4)
         {
             AndroidWebView.loadUrl("https://www.w3adda.com/android-tutorial ");
+        }else if(x == 5)
+        {
+            AndroidWebView.loadUrl("https://www.journaldev.com/9629/android-progressbar-example ");
+        }else if(x == 6)
+        {
+            AndroidWebView.loadUrl("https://www.tutlane.com/tutorial/android/android-progressbar-with-examples");
         }
 
         AndroidWebView.setWebViewClient(new MyWebViewClient());
@@ -74,5 +80,7 @@ public class Main2Activity extends AppCompatActivity {
             super.onPageFinished(view, url);
             progressBar.setVisibility(View.GONE);
         }
+
+
     }
 }

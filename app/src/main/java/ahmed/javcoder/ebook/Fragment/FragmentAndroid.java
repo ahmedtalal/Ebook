@@ -24,7 +24,9 @@ public class FragmentAndroid  extends Fragment{
                     R.drawable.ic_android1 ,
                     R.drawable.ic_android ,
                     R.drawable.studytonight ,
-                    R.drawable.w3schools
+                    R.drawable.w3schools ,
+                    R.drawable.journaldev ,
+                    R.drawable.tutlane
             };
     String[] Androidtext =
             {
@@ -32,7 +34,9 @@ public class FragmentAndroid  extends Fragment{
                     "AbhiAndroid" ,
                     "Android Developer" ,
                     "StudyTonight" ,
-                    "W3schools"
+                    "W3schools" ,
+                    "JournalDev" ,
+                    "Tutlane"
             };
 
 
@@ -73,6 +77,14 @@ public class FragmentAndroid  extends Fragment{
                 }else if(Androidtext[position] == "W3schools")
                 {
                     intent.putExtra("url1" , 4) ;
+                    startActivity(intent);
+                }else if(Androidtext[position] == "JournalDev")
+                {
+                    intent.putExtra("url1" , 5) ;
+                    startActivity(intent);
+                }else if(Androidtext[position] == "Tutlane")
+                {
+                    intent.putExtra("url1" , 6) ;
                     startActivity(intent);
                 }
             }
